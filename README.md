@@ -2,7 +2,7 @@
 
 A simple web app to manage tea shop inventory and orders.
 
-[🌐 Live Demo](https://ninalfi.github.io/MyTeaHouse/)
+[🌐 Live Link](https://ninalfi.github.io/MyTeaHouse/)
 
 
 ## ✨ Overview  
