@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'f1':'rgba(87, 118, 57, 0.1)',
+                'f2':'rgba(230, 166, 35, 0.1)',
+                'f5':'linear-gradient(90.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%)',
+              },
+              fontFamily:{
+                 'man':['Manrope', 'serif'],
+              },
+              boxShadow: {
+        custom: '0px 7px 50px 0px rgba(0, 0, 0, 0.06)',
+      },
+    
+      backgroundImage: {
+        'cg': 'linear-gradient(180deg, rgb(244, 244, 244), rgba(244, 244, 244, 0) 100%)',
+        'f3':'linear-gradient(90.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%)',
+        'f4':'linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%)',
+        'f6':'linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%)',
+        'f7':'linear-gradient(270.00deg, rgba(255, 0, 0, 0.1),rgba(255, 137, 56, 0.1) 100%)' ,
+        
+      },
+            }
+          }
+        }
+        </script>
+</head>
+<body class=" font-man">
+    <div class="flex items-center justify-center mt-[70px]">
+    <div class="lg:flex lg:w-[80vw] justify-between">
+        <div>
+            <h1 class="text-[5rem] font-extrabold">It's good <br>
+                tea time at The <br>Tea House</h1>
+            <p class="text-[#777777] text-lg font-medium w-[70%]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="flex gap-5px mt-[30px] p-[18px] text-[#FFFFFF] font-bold text-[1.25rem] rounded-[10px] bg-gradient-to-l from-red-500 to-orange-400">Explore More <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></button>
+        </div>
+        <div class="relative">
+            <img class="h-[100%]" src="images/banner.png" alt="">
+            <button class="flex items-center bg-[#FFFFFF] p-[18px] rounded-[10px] shadow-custom absolute top-[80%] left-[18%]">
+                <svg width="48" height="46" viewBox="0 0 48 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M42.4416 13.778L29.9033 12.6152L24.9228 1.04987C24.574 0.240051 23.4259 0.240051 23.0772 1.04987L18.0966 12.6151L5.5584 13.778C4.68043 13.8594 4.32568 14.9514 4.98802 15.5333L14.4482 23.8439L11.6796 36.1279C11.4858 36.988 12.4147 37.6629 13.1728 37.2128L24 30.7838L34.8272 37.2128C35.5854 37.663 36.5141 36.988 36.3204 36.1279L33.5517 23.8439L43.012 15.5333C43.6743 14.9514 43.3195 13.8594 42.4416 13.778Z" fill="#FFDC64"/>
+                    <path d="M11.1823 0.651717C11.8215 1.53953 13.6256 5.35235 14.6571 7.57442C14.8193 7.92373 14.381 8.23929 14.1011 7.97463C12.3211 6.29163 9.2775 3.37113 8.63831 2.48322C8.13253 1.78075 8.292 0.801249 8.99456 0.295467C9.69703 -0.210315 10.6765 -0.0507523 11.1823 0.651717Z" fill="#FFF082"/>
+                    <path d="M36.8177 0.651717C36.1785 1.53953 34.3744 5.35235 33.343 7.57442C33.1808 7.92373 33.6191 8.23929 33.8989 7.97463C35.6789 6.29163 38.7224 3.37103 39.3617 2.48322C39.8675 1.78075 39.708 0.801249 39.0055 0.295467C38.303 -0.210315 37.3235 -0.0507523 36.8177 0.651717Z" fill="#FFF082"/>
+                    <path d="M46.9183 26.6867C45.8782 26.3475 41.6974 25.7871 39.2671 25.4796C38.8851 25.4313 38.7177 25.9447 39.0547 26.1309C41.199 27.3155 44.9062 29.3277 45.9463 29.6669C46.7692 29.9353 47.6539 29.4858 47.9223 28.6627C48.1907 27.8397 47.7412 26.9551 46.9183 26.6867Z" fill="#FFF082"/>
+                    <path d="M1.08176 26.6867C2.12182 26.3475 6.30261 25.7871 8.73289 25.4796C9.11492 25.4313 9.28236 25.9447 8.94533 26.1309C6.80098 27.3155 3.09382 29.3277 2.05376 29.6669C1.23082 29.9353 0.346098 29.4858 0.0776916 28.6627C-0.190715 27.8397 0.258817 26.9551 1.08176 26.6867Z" fill="#FFF082"/>
+                    <path d="M22.4807 44.3756C22.4807 43.2816 23.2443 39.1332 23.7055 36.7272C23.778 36.3491 24.3181 36.3491 24.3906 36.7272C24.8518 39.1332 25.6154 43.2816 25.6154 44.3756C25.6154 45.2412 24.9137 45.9429 24.0481 45.9429C23.1824 45.943 22.4807 45.2412 22.4807 44.3756Z" fill="#FFF082"/>
+                    <path d="M26.7338 5.2555L24.9227 1.04987C24.5739 0.240051 23.4258 0.240051 23.0771 1.04987L18.0965 12.6151L5.5584 13.778C4.68043 13.8594 4.32568 14.9514 4.98802 15.5333L14.4482 23.8439L11.6796 36.1279C11.4858 36.988 12.4147 37.6629 13.1728 37.2128L14.6138 36.3571C16.9762 21.0646 23.6177 9.83875 26.7338 5.2555Z" fill="#FFC850"/>
+                    </svg>
+                    
+                <div class="text-left ">
+                    <h1 class="text-3xl font-extrabold">5.00</h1>
+                    <p class="text-[#777777] font-semibold">Trust Pilot Ratings</p>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="flex flex-col justify-center items-center text-center mt-[130px]">
+    <h1 class="font-extrabold text-4xl">Our Featured Products</h1>
+    <p class="text-[#777777] font-semibold w-[48%] mt-[20px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+    <div class=" grid  md:grid-cols-2  lg:grid-cols-4 gap-6 mt-[50px] ">
+        <div class="flex flex-col items-center justify-center bg-cg rounded-[10px] p-[30px]">
+            <img class="h-[100%] mb-[30px]" src="images/tea-1.png" alt="">
+            <h1 class="text-2xl font-extrabold">Green Tea</h1>
+            <p class="text-[#777777] font-semibold w-[70%]">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-cg rounded-[10px] p-[30px]">
+            <img class="h-[100%] mb-[30px]" src="images/tea-2.png" alt="">
+            <h1 class="text-2xl font-extrabold">Milk Tea</h1>
+            <p class="text-[#777777] font-semibold w-[70%]">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-cg rounded-[10px] p-[30px]">
+            <img class="h-[100%] mb-[30px]" src="images/tea-3.png" alt="">
+            <h1 class="text-2xl font-extrabold">Black Tea</h1>
+            <p class="text-[#777777] font-semibold w-[70%]">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-cg rounded-[10px] p-[30px]">
+            <img class="h-[100%] mb-[30px]" src="images/tea-4.png" alt="">
+            <h1 class="text-2xl font-extrabold">Lemon Tea</h1>
+            <p class="text-[#777777] font-semibold w-[70%]">Creamer could be replaced by fresh milk</p>
+        </div>
+    </div>
+</div>
+<div class=" flex justify-center items-center">
+<div class="mt-[130px] lg:flex lg:items-center lg:justify-between w-[80vw] h-[100%]">
+    <div class="grid grid-cols-2 grid-rows-3 lg:w-[48%] gap-[30px]">
+        <div class="rounded-[10px] bg-f3 opacity-10"></div>
+        <div class="row-span-2 rounded-[10px] flex justify-center bg-f2 "><img src="images/fresh-1.png" alt=""  class="p-[46px]" ></div>
+        <div  class="row-span-2 rounded-[10px] flex justify-center bg-f1"><img src="images/fresh-2.png" alt="" class="p-[46px]" ></div>
+        <div class="rounded-[10px] bg-f4"></div>
+    </div>
+    <div class="lg:w-[48%] mt-[50px] lg:mt-[0px]">
+        <h1 class="text-4xl font-extrabold">Great Tea, Freshly<br> Presented</h1>
+        <p class="text-[#777777] font-medium  w-[80%] mt-[3vw]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its casters  because of good words of mouth and unique customized service originated from Taiwan.</p>
+        <h2 class="font-extrabold text-xl mt-[3vw]">Unique Taste</h2>
+        <p class="text-[#777777] font-medium w-[80%] ">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+        <h2 class="font-extrabold text-xl mt-[3vw]">Premium Quality</h2>
+        <p class="text-[#777777] font-medium w-[80%]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+    </div>
+</div>
+</div>
+<div class="w-[90vw] lg:w-[80vw] mx-auto">
+<div class="flex items-center justify-center mt-[130px] ">
+<div class="bg-f6 lg:flex items-center justify-between w-[90vw] lg:w-[80vw] pt-[130px] lg:pt-[0px]">
+    <div class="lg:w-[30%] mx-auto  w-[80vw]">
+        <h1 class="text-4xl font-extrabold text-white">Meet Our Super<br>Clients</h1>
+        <p class="font-medium mt-[20px] text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+        <button class="text-orange-700 py-[15px] mt-[30px]  px-[28px] rounded-[10px] font-bold bg-white">Show All</button>
+    </div>
+    <div class="lg:w-[48%]  w-[90%] flex flex-col justify-center mx-auto items-center gap-8 relative py-[100px]">
+    <div class="bg-white rounded-[10px] absolute  z-10 top-[35%] lg:-left-[5%] lg:w-[80%] px-[50px] py-[32px]">
+        <img src="images/client.png" alt=""  class="absolute -top-[5%] -left-[5%] border-[3px] rounded-[50%] border-white" >
+        <p class="text-[#777777] w-[90%]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h1 class="font-bold mt-[20px]">Ilham Yuda</h1>
+        <p class="text-[#777777] ">Businessman</p>
+    </div>
+    <div class="bg-white rounded-[10px] opacity-10 lg:w-[80%] px-[50px] py-[32px] relative">
+        <img src="images/client.png" alt=""  class="absolute -top-[5%] -left-[5%] border-[3px] rounded-[50%] border-white" >
+        <p class="text-[#777777] w-[90%]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h1 class="font-bold mt-[20px]">Ilham Yuda</h1>
+        <p class="text-[#777777]">Businessman</p>
+    </div>
+    <div class="bg-white rounded-[10px] opacity-10 lg:w-[80%] mt-[10px] px-[50px] py-[32px] relative">
+        <img src="images/client.png" alt=""  class="absolute -top-[5%] -left-[5%] border-[3px] rounded-[50%] border-white" >
+        <p class="text-[#777777] w-[90%]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+        <h1 class="font-bold mt-[20px]">Ilham Yuda</h1>
+        <p class="text-[#777777]">Businessman</p>
+    </div>
+    </div>
+</div>
+</div>
+<div class="mt-[130px]">
+    <div class="text-center">
+    <h1 class="font-extrabold text-5xl ">News & Events</h1>
+    <p class="font-medium text-[#777777] w-[60%] mx-auto mt-[20px] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+</div>
+</div>
+<div class="lg:flex justify-between items-center ">
+    <div class="card bg-base-100 w-[100%] shadow-xl pt-[21px] border-2 lg:w-[32%] ">
+        <figure>
+          <img class="w-[90%]"
+            src="images/news-1.png"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+            <p class="text-[#777777]">Feb 05, 2027</p>
+          <h2 class="card-title">Collecting 8 points for<br>discount</h2>
+          <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions justify-end">
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl pt-[21px] mt-[20px] lg:mt-[0px] border-2 w-[100%] lg:w-[32%]">
+        <figure>
+          <img class="w-[90%]"
+            src="images/news-2.png"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+            <p class="text-[#777777]">Feb 05, 2027</p>
+          <h2 class="card-title">Collecting 8 points for<br>discount</h2>
+          <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions justify-end">
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl pt-[21px] w-[100%] mt-[20px] lg:mt-[0px] border-2 lg:w-[32%]">
+        <figure>
+          <img class="w-[90%]"
+            src="images/news-3.png"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+            <p class="text-[#777777]">Feb 05, 2027</p>
+          <h2 class="card-title">Collecting 8 points for<br>discount</h2>
+          <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions justify-end">
+            <p class="font-bold">Learn More</p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+</body>
+<footer class="bg-cg mt-[100px] pt-[100px]">
+  <div class="flex justify-between w-[80vw] mx-auto ">
+    <svg width="62" height="64" viewBox="0 0 62 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_60_141)">
+      <path d="M55.3551 27.711L7.23615 34.6458C5.15259 34.9521 3.04087 34.2558 1.63306 32.7241C0.619437 31.6101 0 30.134 0 28.5187C0 25.1766 2.64668 22.4473 5.99727 22.2802C6.22252 22.2802 6.41962 22.2524 6.64487 22.2245L54.7639 15.3176C56.8474 15.0113 58.9591 15.7075 60.3669 17.2393C61.3806 18.3533 62 19.8294 62 21.4447C62 24.7867 59.3533 27.5161 56.0027 27.6832C55.8056 27.6553 55.5804 27.6832 55.3551 27.711Z" fill="#1C1C1C"/>
+      <path d="M50.3433 44.1427L11.6567 49.7128C8.16529 49.7128 5.34967 46.9277 5.34967 43.4743C5.34967 40.0209 8.16529 37.2358 11.6567 37.2358L50.3433 31.6658C53.8347 31.6658 56.6503 34.4508 56.6503 37.9042C56.6503 41.3298 53.8347 44.1427 50.3433 44.1427Z" fill="#1C1C1C"/>
+      <path d="M40.1226 61.215L21.8492 64C18.3579 64 15.5422 61.215 15.5422 57.7615C15.5422 54.3081 18.3579 51.5231 21.8492 51.5231L40.1226 48.738C43.614 48.738 46.4296 51.5231 46.4296 54.9765C46.4578 58.4299 43.614 61.215 40.1226 61.215Z" fill="#1C1C1C"/>
+      <path d="M37.307 14.6214V6.23847C37.307 2.78503 34.4914 0 31 0C27.5086 0 24.693 2.78503 24.693 6.23847V16.4317L37.307 14.6214Z" fill="#1C1C1C"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_60_141">
+      <rect width="62" height="64" fill="white"/>
+      </clipPath>
+      </defs>
+      </svg>
+      
+    <div class="flex gap-5 items-center ">
+      <p class="text-[#494949]">Ready to get started?</p>
+      <button class="bg-f6 text-white px-[25px] py-[15px] rounded-[10px] font-bold">Get Started</button>
+    </div>
+  </div>
+  <div class="flex flex-col lg:flex-row justify-between gap-[20px] w-[80vw] mx-auto mt-[100px]">
+  <div class="flex flex-col gap-[12px] text-[#494949] ">
+    <h6 class="font-semibold  text-xl">Quick Links</h6>
+    <a >Home</a>
+    <a >About Us</a>
+    <a >Insurance</a>
+    <a >Privacy Policy</a>
+  </div>
+  <div class="flex flex-col gap-[12px] text-[#494949] ">
+    <h6 class="font-semibold  text-xl">Our Service</h6>
+    <a >Life Insurance</a>
+    <a >Car Insurance</a>
+    <a >Health Insurance</a>
+    <a >House Insurance</a>
+  </div>
+  <div class="flex flex-col gap-[12px] text-[#494949] ">
+    <h6 class="font-semibold text-xl">Help</h6>
+    <a >FAQs</a>
+    
+    <a >Contact Us</a>
+  </div>
+  <form>
+    <h6 class="font-semibold mb-[48px] text-xl">Subscribe to our<br>newsletter</h6>
+    <fieldset class="w-80">
+      
+      <div class="join">
+        <input 
+          type="text"
+          placeholder="Email address"
+          class="text-left input bg-transparent border-b-1 border-t-0 border-x-0 rounded-none border-black " 
+          />
+          <div class="bg-f3 rounded-[50%] p-4">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"  xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.91406 3.7832L12.1315 9.00059L6.91406 14.218" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          
+      </div>
+      <div class="flex gap-3 mt-[50px]">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="#494949"/>
+          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.1623 5.6569C21.3989 5.9946 20.5893 6.21638 19.7603 6.3149C20.634 5.79234 21.288 4.96992 21.6003 4.0009C20.7803 4.4889 19.8813 4.8309 18.9443 5.0159C18.3149 4.34248 17.4807 3.89587 16.5713 3.74549C15.6618 3.59511 14.7282 3.74939 13.9156 4.18436C13.1029 4.61932 12.4567 5.31059 12.0774 6.1507C11.6981 6.9908 11.607 7.93268 11.8183 8.8299C10.1554 8.74656 8.52863 8.31443 7.04358 7.56157C5.55854 6.80871 4.24842 5.75195 3.1983 4.4599C2.82659 5.09835 2.63125 5.82413 2.6323 6.5629C2.6323 8.0129 3.3703 9.2939 4.4923 10.0439C3.82831 10.023 3.17893 9.84368 2.5983 9.5209V9.5729C2.5985 10.5386 2.93267 11.4745 3.54414 12.222C4.15562 12.9694 5.00678 13.4824 5.9533 13.6739C5.33691 13.8409 4.6906 13.8656 4.0633 13.7459C4.33016 14.5771 4.8503 15.3041 5.55089 15.825C6.25147 16.3459 7.09743 16.6347 7.9703 16.6509C7.10278 17.3322 6.10947 17.8359 5.04718 18.1331C3.98488 18.4303 2.87442 18.5152 1.7793 18.3829C3.69099 19.6123 5.91639 20.265 8.1893 20.2629C15.8823 20.2629 20.0893 13.8899 20.0893 8.3629C20.0893 8.1829 20.0843 8.0009 20.0763 7.8229C20.8952 7.23107 21.6019 6.49792 22.1633 5.6579L22.1623 5.6569Z" fill="#494949"/>
+            </svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7V7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9V9Z" fill="#494949"/>
+              </svg>
+                                            
+        </div>
+    </fieldset>
+  </form>
+  </div>
+  <p class="text-center mt-[60px] pb-[130px]">© 2027 UIDesign.to - All rights reserved.</p>
+</footer>
+</html>
